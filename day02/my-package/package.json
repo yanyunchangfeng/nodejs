@@ -1,0 +1,8 @@
+{
+    "name":"my-package",
+    "main":"index.js",
+    "description": "this is circle size ",
+    "version": "1.0.0",
+    "keywords":["circle","yanyunchangfeng"],
+    "maintainers": [{"name": "yanyunchangfeng","email": "yanyunchangfeng@gmail.com","url": "https://zhuanlan.zhihu.com/yanyunchangfeng"}]
+}

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>使用视频做背景</title>
+    <style>
+      html,body{
+          margin:0;
+          height: 100%;
+      }
+      main{
+          border: 1px solid #e4393a;
+          position: relative;
+          height: 100%;
+          overflow: hidden;
+      }
+      .container{
+          width:400px;
+          margin:180px auto;
+          text-align: center;
+          background: rgba(255, 255, 255, .6)
+      }
+      .bg-video{
+          position: absolute;
+          width: 100%;
+          left: 0;
+          top:-100px;
+          z-index: -1;
+      }
+    </style>
+</head>
+<body>
+  <main>
+      <div class="container">
+        <div>
+            <label for="">用户名：</label> <input value="燕云长风">
+        </div>
+        <div>
+            <label for="">密&nbsp;&nbsp;&nbsp;码：</label> <input value="燕云长风">
+        </div>
+        <div>
+            <label for="">邮&nbsp;&nbsp;&nbsp;箱：</label> <input value="燕云长风">
+        </div>
+        <div>
+            <label for="">电&nbsp;&nbsp;&nbsp;话：</label> <input value="燕云长风">
+        </div>
+        <div>
+            <label for="">用户名：</label> <input value="燕云长风">
+        </div>
+        <div>
+            <label for="">用户名：</label> <input value="燕云长风">
+        </div>
+        <div>
+            <label for="">用户名：</label> <input value="燕云长风">
+        </div>
+        <div>
+            <label for="">用户名：</label> <input value="燕云长风">
+        </div>
+        <div>
+            <label for="">用户名：</label> <input value="燕云长风">
+        </div>
+        <div>
+            <label for="">用户名：</label> <input value="燕云长风">
+        </div>
+    
+      </div>
+    <video src="qsx.mp4" autoplay loop class="bg-video"></video>
+  </main>
+</body>
+</html>
